@@ -1,0 +1,15 @@
+server:
+  Port: :8080
+  ReadTimeout: 15000000000
+  WriteTimeout: 15000000000
+  CtxTimeout: 5000000000
+  ReportsPath: month_reports
+
+postgres:
+  Host: database
+  Port: 5432
+  User: balance_service
+  Password: superStrongPw
+  DBName: balance_service
+  SSLMode: false
+  PoolMaxConns: 10
